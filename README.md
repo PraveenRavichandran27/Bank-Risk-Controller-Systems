@@ -48,3 +48,8 @@ The dataset includes historical resale flat transactions in Singapore, with feat
 ## Conclusion
 The Singapore Resale Flat Prices Prediction system serves as an effective tool for estimating the resale value of flats in Singapore. The Streamlit application provides an intuitive interface for interacting with the predictive model, making it accessible to users who wish to gain insights into the resale flat market.
 
+## Contacts
+
+Email: praveen2726r@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/praveenr27/
