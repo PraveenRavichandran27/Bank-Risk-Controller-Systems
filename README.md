@@ -1,52 +1,93 @@
 # Bank-Risk-Controller-Systems
-# Singapore Resale Flat Prices Prediction
 
-## Overview
-The Singapore Resale Flat Prices Prediction system is a powerful predictive model developed to estimate the resale prices of Housing and Development Board (HDB) flats in Singapore. This tool is designed to assist both potential buyers and sellers in making informed decisions by providing accurate price predictions based on various flat features. The system utilizes machine learning techniques and is deployed as a user-friendly web application using Streamlit.
+## Project Overview
 
-## Project Structure
+The Bank Risk Controller Systems project aims to develop a machine learning model to predict loan defaults. The system will utilize historical loan data to build a predictive model, evaluate its performance, and deploy it through a Streamlit application for real-time predictions.
 
-### Main Libraries Used:
-- **pandas**: Data manipulation and analysis.
-- **numpy**: Numerical operations.
-- **streamlit**: Web application framework.
-- **plotly.express**: Interactive data visualizations.
-- **matplotlib & seaborn**: Data visualization.
-- **scikit-learn**: Machine learning algorithms.
+## Skills and Technologies
 
-### File Structure:
-- **app.py**: The primary Python file containing the Streamlit app code.
-- **resale_flat_data.csv**: The dataset used for model training and analysis.
-- **resale_price_model.pkl**: The pre-trained regression model for flat price prediction.
+- **Python**: For data preprocessing, machine learning, and model deployment.
+- **Analytics & Statistics**: For data exploration and feature engineering.
+- **Plotting**: Using Plotly and Seaborn for visualizations.
+- **Machine Learning**: Logistic Regression, Decision Trees, Random Forest, Gradient Boosting.
+- **Deep Learning**: Leveraging advanced techniques if needed.
+- **Streamlit**: For building interactive dashboards and deployment.
 
+## Problem Statement
 
-### Home
-- **Overview**: Provides an introduction to the Singapore Resale Flat Prices Prediction system, including the project's purpose and objectives.
-- **Information**: Displays details about the domain, technologies used, and the overall structure of the project.
+Predict whether a customer will default on a loan based on historical loan data. The target column in the dataset is `TARGET`.
 
-### EDA Visualization
-- **Exploratory Data Analysis**: Offers insights into the dataset, including distribution analysis, feature relationships, and handling of missing data.
-- **Visualizations**: Includes histograms, correlation matrices, and scatter plots to better understand the data.
+## Business Use Cases
 
-### Model Performance
-- **Metrics**: Showcases the model's performance using regression metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared score.
-- **Model Selection**: Highlights the selected regression model (e.g., Random Forest Regressor) with a performance summary.
+1. **Risk Management**: Assess borrower risk and aid in loan approval decisions.
+2. **Customer Segmentation**: Tailor financial products based on risk profiles.
+3. **Credit Scoring**: Enhance traditional credit scoring models.
+4. **Fraud Detection**: Identify patterns indicative of fraudulent applications.
 
-### Price Prediction
-- **User Input**: A form-based interface allowing users to input flat details such as town, flat type, floor area, etc., to predict the resale price.
-- **Prediction Output**: Displays the predicted resale price based on the user-provided data.
+## Approach
 
-## Dataset
-The dataset includes historical resale flat transactions in Singapore, with features such as flat type, town, storey range, floor area, and lease commence date. The target variable is the resale price.
+### 1. Data Collection
+- Gather historical loan data from the provided dataset.
 
-## How to Use
-1. **Navigate**: Use the sidebar menu to explore different sections of the app.
-2. **Price Prediction**: Input flat details in the Price Prediction section to estimate the resale value.
-3. **EDA Visualization**: Explore data characteristics and relationships through various visualizations.
-4. **About Section**: Learn more about the project background, dataset, and methodologies used.
+### 2. Data Preprocessing
+- Clean and preprocess the data: handle missing values, outliers, and encode categorical variables.
 
-## Conclusion
-The Singapore Resale Flat Prices Prediction system serves as an effective tool for estimating the resale value of flats in Singapore. The Streamlit application provides an intuitive interface for interacting with the predictive model, making it accessible to users who wish to gain insights into the resale flat market.
+### 3. Exploratory Data Analysis (EDA)
+- Perform EDA to understand data distributions and relationships between variables.
+
+### 4. Feature Engineering
+- Create features that enhance the model's predictive power.
+
+### 5. Model Selection
+- Evaluate various models such as Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting.
+
+### 6. Model Training
+- Train the selected model(s) on the training dataset.
+
+### 7. Model Evaluation
+- Assess model performance using metrics like Accuracy, Precision, Recall, F1 Score, and ROC-AUC.
+
+### 8. Hyperparameter Tuning
+- Optimize model parameters to improve performance.
+
+### 9. Model Deployment
+- Deploy the model using a Streamlit application for real-time predictions.
+
+## Results
+
+### Expected Outcomes
+- **Streamlit Dashboard**:
+  - **Sidebar 1: Data**
+    - Display the dataset and model performance metrics.
+  - **Sidebar 2: EDA - Visual**
+    - Perform and display EDA analysis and plots using Plotly or Seaborn.
+  - **Sidebar 3: Prediction**
+    - Input feature values and predict loan default status.
+
+### Project Evaluation Metrics
+- Accuracy, Precision, Recall, F1 Score, and ROC-AUC should be above 0.87 (87%).
+
+## Data
+
+### Dataset
+- **Loan_data.csv**: [Download Dataset](https://drive.google.com/drive/folders/10O0mhM9FCBKeFpIGuJprgDtzJxpEArdx?usp=sharing)
+- **Data Dictionary**: [Download Data Dictionary](https://drive.google.com/drive/folders/10O0mhM9FCBKeFpIGuJprgDtzJxpEArdx?usp=sharing)
+
+### Data Set Explanation
+- Historical loan application data with personal details and loan status.
+- **Preprocessing**:
+  - Handle missing values.
+  - Encode categorical variables.
+  - Normalize/standardize numerical variables.
+  - Feature engineering based on domain knowledge.
+
+## Project Deliverables
+
+1. **Source Code**: Complete code for preprocessing, model training, and evaluation.
+2. **Documentation**: Report detailing methodology, analysis, results, and insights.
+3. **Presentation**: Slide deck summarizing the project and key findings.
+4. **Model Files**: Trained model ready for deployment.
+5. **README**: Instructions for running the code and reproducing results.
 
 ## Contacts
 
