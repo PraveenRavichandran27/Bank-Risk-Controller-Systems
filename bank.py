@@ -362,4 +362,4 @@ if opt=="About":
 
         st.markdown(f"### :blue[CONCLUSION]")
         st.write(" ")
-        st.markdown(f"#### ***The expected outcome of this project is a robust predictive model that can accurately identify customers who are likely to default on their loans. This will enable the financial institution to proactively manage their credit portfolio, implement targeted interventions, and ultimately reduce the risk of loan defaults.***")
+        st.markdown(f"#### ***The expected outcome of this project is a robust predictive model that can accurately identify customers who are likely to default on their loan. This will enable the financial institution to proactively manage their credit portfolio, implement targeted interventions, and ultimately reduce the risk of loan defaults.***")
