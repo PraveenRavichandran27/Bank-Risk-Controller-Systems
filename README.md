@@ -89,7 +89,7 @@ Predict whether a customer will default on a loan based on historical loan data.
 4. **Model Files**: Trained model ready for deployment.
 5. **README**: Instructions for running the code and reproducing results.
 
-## Contacts
+## Contacts:
 
 Email: praveen2726r@gmail.com
 
